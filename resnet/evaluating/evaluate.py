@@ -25,7 +25,7 @@ parser.add_argument('--epochs', type=int, default=320, help='num of training epo
 parser.add_argument('--learning_rate', type=float, default=0.2, help='init learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
 parser.add_argument('--weight_decay', type=float, default=1e-4, help='weight decay')
-parser.add_argument('--save', type=str, default='./models_V2R1N3', help='path for saving trained models')
+parser.add_argument('--save', type=str, default='./models', help='path for saving trained models')
 parser.add_argument('--data', metavar='DIR', help='path to dataset')
 parser.add_argument('--label_smooth', type=float, default=0.1, help='label smoothing')
 parser.add_argument('--train_print_freq', type=float, default=100, help='report frequency')
