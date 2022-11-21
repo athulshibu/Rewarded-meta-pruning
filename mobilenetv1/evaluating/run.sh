@@ -1,2 +1,2 @@
 clear
-python evaluate.py --data='./imagenet_dataset' | tee evaluation.txt
+python evaluate.py --data='./ImageNet2012' | tee evaluation.txt
