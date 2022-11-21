@@ -1,3 +1,2 @@
 clear
-python3 evaluate.py --data=/mnt/local0/imagenet_dataset | tee -a Evaluate_V2RxN3.txt
-
+python evaluate.py --data='./imagenet_dataset' | tee evaluation.txt
