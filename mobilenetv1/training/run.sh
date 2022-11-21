@@ -1,2 +1,2 @@
 clear
-python3 train.py --data=/mnt/local0/imagenet_dataset | tee -a training.txt
+python train.py --data='./ImageNet2012' | tee -a log/training.txt
